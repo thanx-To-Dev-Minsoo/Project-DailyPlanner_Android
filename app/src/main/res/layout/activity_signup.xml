@@ -22,8 +22,9 @@
                 android:id="@+id/back"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1.7"
-                android:text="back"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1.0"
+                android:text="Sign in"
                 android:textSize="20dp" />
 
             <TextView
