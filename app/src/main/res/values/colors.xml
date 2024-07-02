@@ -23,4 +23,7 @@
     <color name="k">#f3c3b2</color>   //3
     <color name="l">#cfd6c4</color>   //3
     <color name="z">#FFD700</color>   //3
+    //-----------------------------------------------
+    <color name="facebook_blue">#0866FF</color>
+    <color name="kakaotalk_yellow">#FFCD00</color>
 </resources>
