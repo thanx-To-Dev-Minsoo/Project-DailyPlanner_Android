@@ -24,6 +24,9 @@
     <color name="l">#cfd6c4</color>   //3
     <color name="z">#FFD700</color>   //3
     //-----------------------------------------------
-    <color name="facebook_blue">#0866FF</color>
+    <color name="instagram_pink">#E4405F</color>
     <color name="kakaotalk_yellow">#FFCD00</color>
+    <color name="naver_green">#03C75A</color>
+    <color name="line_green">#00C300</color>
+    <color name="facebook_blue">#0866FF</color>
 </resources>
