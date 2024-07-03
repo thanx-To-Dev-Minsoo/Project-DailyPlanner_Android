@@ -2,13 +2,7 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    //-----------------------------------------------
-    <color name="m">#f3dbce</color>   //2
-    <color name="n">#ffcdb2</color>   //2
-    <color name="o">#ffb4a2</color>   //2
-    <color name="p">#e5989b</color>   //2
-    <color name="q">#b5838d</color>   //2
-    <color name="r">#6d6875</color>   //2
+    //1, 2, 3 색상 조합 표
     //-----------------------------------------------
     <color name="a">#dbecf4</color>   //1
     <color name="b">#cadeed</color>   //1
@@ -17,16 +11,38 @@
     <color name="e">#5f84a2</color>   //1
     <color name="f">#194569</color>   //1
     //-----------------------------------------------
-    <color name="h">#99cdd8</color>   //3
-    <color name="i">#daebe3</color>   //3
-    <color name="j">#fde8d3</color>   //3
-    <color name="k">#f3c3b2</color>   //3
-    <color name="l">#cfd6c4</color>   //3
-    <color name="z">#FFD700</color>   //3
+    <color name="g">#f3dbce</color>   //2
+    <color name="h">#ffcdb2</color>   //2
+    <color name="i">#ffb4a2</color>   //2
+    <color name="j">#e5989b</color>   //2
+    <color name="k">#b5838d</color>   //2
+    <color name="l">#6d6875</color>   //2
     //-----------------------------------------------
+    <color name="m">#99cdd8</color>   //3
+    <color name="n">#daebe3</color>   //3
+    <color name="o">#fde8d3</color>   //3
+    <color name="p">#f3c3b2</color>   //3
+    <color name="q">#cfd6c4</color>   //3
+    <color name="r">#FFD700</color>   //3
+    //-----------------------------------------------
+    //기업 색상
     <color name="instagram_pink">#E4405F</color>
     <color name="kakaotalk_yellow">#FFCD00</color>
     <color name="naver_green">#03C75A</color>
     <color name="line_green">#00C300</color>
     <color name="facebook_blue">#0866FF</color>
+    //-----------------------------------------------
+    //흰색 대신 쓰기 좋은 색상
+    <color name="cream">#FFF5EA</color>
+    <color name="cloudwisp">#F1FAFF</color>
+    <color name="mojitobreeze">#FBFFF4</color>
+    <color name="coldsteel">#F8F7F4</color>
+    <color name="candyfloss">#FEECEB</color>
+    //-----------------------------------------------
+    //검은색 대신 쓰기 좋은 색상
+    <color name="lavablack">#352F36</color>
+    <color name="midnughtblue">#0C1219</color>
+    <color name="oilslick">#021001</color>
+    <color name="oilblack">#0C0C0C</color>
+    <color name="obsidian">#0B1215</color>
 </resources>
