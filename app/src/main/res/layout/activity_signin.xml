@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffff">
+    android:background="#ffffff"
+    tools:context=".MainActivity">
 
     <!-- Background illustration or graphic -->
     <ImageView
@@ -19,7 +20,7 @@
         android:orientation="vertical"
         android:padding="40dp"
         android:gravity="center"
-        android:layout_marginTop="160dp">
+        android:layout_marginTop="50dp">
 
         <TextView
             android:id="@+id/logintext"
@@ -37,32 +38,29 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginBottom="10dp"
-            android:hint="아이디"
-            android:inputType="textPersonName"
+            android:hint="E-mail address"
+            android:inputType="textEmailAddress"
             android:padding="10dp"
-             />
-        <!--android:background="@drawable/edittext_background"-->
+            android:background="@drawable/edittext_background" />
 
         <EditText
             android:id="@+id/editPassword"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginBottom="10dp"
-            android:hint="비밀번호"
+            android:hint="Password"
             android:inputType="textPassword"
             android:padding="10dp"
-             />
-        <!--android:background="@drawable/edittext_background"-->
+            android:background="@drawable/edittext_background" />
 
-        <!-- Error message TextView -->
         <TextView
             android:id="@+id/errorMessage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:text="Invalid credentials"
+            android:text="비밀번호 찾기"
             android:textColor="@color/black"
-            android:visibility="gone" />
+            android:visibility="visible" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/loginbutton"
@@ -75,42 +73,54 @@
             android:textSize="16sp"
             android:textStyle="bold" />
 
+        <!--<TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="――――――――――――――  or  ――――――――――――――"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp" />-->
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:text="네이버로 쉬운 시작"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/naver_green"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:text="페이스북으로 쉬운 시작"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/facebook_blue"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:text="카카오톡으로 쉬운 시작"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/kakaotalk_yellow"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
         <TextView
             android:id="@+id/signin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Create Account?"
+            android:text="회원이 아니신가요? 회원가입"
             android:textColor="@color/black"
             android:textSize="15sp"
-            android:textStyle="bold" />
-
-        <!-- Social media login buttons -->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center"
-            android:layout_marginTop="20dp">
-
-            <androidx.appcompat.widget.AppCompatButton
-                android:layout_width="0dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:layout_marginEnd="10dp"
-                android:text="naver"
-                android:textColor="@color/white"
-                android:backgroundTint="@color/naver_green"
-                android:drawableLeft="@drawable/ic_naver" />
-
-            <androidx.appcompat.widget.AppCompatButton
-                android:layout_width="0dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:text="kakaotalk"
-                android:textColor="@color/black"
-                android:backgroundTint="@color/kakaotalk_yellow"
-                android:drawableLeft="@drawable/ic_kakaotalk" />
-        </LinearLayout>
+            android:textStyle="bold"
+            android:layout_gravity="center" />
     </LinearLayout>
 </FrameLayout>
