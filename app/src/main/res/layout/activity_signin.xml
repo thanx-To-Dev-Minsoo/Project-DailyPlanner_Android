@@ -71,12 +71,13 @@
             android:textColor="@color/white"
             android:backgroundTint="@color/black"
             android:textSize="16sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:background="@drawable/button_background"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="――――――――――――  or  ――――――――――――"
+            android:text="――――――――――――  or  ――――――――――――――"
             android:textColor="@color/black"
             android:gravity="center"
             android:layout_marginTop="20dp"
@@ -91,7 +92,7 @@
             android:backgroundTint="@color/naver_green"
             android:textSize="16sp"
             android:textStyle="bold"
-            android:drawableLeft="@drawable/ic_naver"/>
+            android:drawableLeft="@drawable/ic_naver" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:layout_width="match_parent"
