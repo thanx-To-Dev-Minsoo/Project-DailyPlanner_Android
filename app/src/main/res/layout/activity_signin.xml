@@ -94,7 +94,7 @@
             android:textStyle="bold"
             android:drawableLeft="@drawable/ic_naver" />
 
-        <androidx.appcompat.widget.AppCompatButton
+        <!--<androidx.appcompat.widget.AppCompatButton
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginTop="10dp"
@@ -103,7 +103,8 @@
             android:backgroundTint="@color/facebook_blue"
             android:textSize="16sp"
             android:textStyle="bold"
-            android:drawableLeft="@drawable/ic_facebook"/>
+            android:drawableLeft="@drawable/ic_facebook"/>-->
+        <!-- 페이스북, 인스타그램 등 sns 계정 로그인은 제외 -->
 
         <androidx.appcompat.widget.AppCompatButton
             android:layout_width="match_parent"
